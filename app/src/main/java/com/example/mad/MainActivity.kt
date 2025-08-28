@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
             intent.type = "image/*"
             startActivity(intent)
         }
+
         val cameraButton = findViewById<Button>(R.id.btnCamera)
 
         cameraButton.setOnClickListener {
